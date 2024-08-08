@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    color: red;
+    background-color: lightblue;
+}
+.subtitle{
+    color: rebeccapurple;
+    font-size: large;
+}
+img {
+    display: block; /* Makes margin auto work */
+    margin: auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image does not overflow its container */
+    height: auto; /* Maintains the aspect ratio */
+}
